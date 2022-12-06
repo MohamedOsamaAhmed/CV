@@ -135,10 +135,10 @@ header h1 {
 }
 /*-------------------------------------------work experience  --------------------------*/
 
-.work-experience {
-  background-color: var(--light-blue);
+/*.work-experience {
+ background-color: var(--light-blue); 
 }
-
+*/
 /* an effect of the links in the page */
 a {
   color: var(--yellow);
@@ -151,9 +151,7 @@ a:hover {
 /*-----------------------------------------------education  ------------------------------*/
 
 .education {
-  background-image: url("../images/joanna-kosinska-unsplash.jpg");
-  background-size: cover;
-  background-position: top right;
+  background-color: var(--white-section-bgc);
 }
 
 @media (max-width: 767px) {
@@ -168,16 +166,20 @@ a:hover {
 /* 
 #FF5959
 */
+/*
 .courses {
   background-color: #66806a;
   color: #f7f7f7;
 }
-
-.skills {
-  color: #f7f7f7;
-  background-color: #117c7c;
-  margin-right: 20px; 
+*/
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  border-spacing: 30px;
 }
+
 .date {
   color: #353535;
   margin-right: 20px;
@@ -218,7 +220,9 @@ a:hover {
     -webkit-transform: translateX(21.42%);
   }
 }
-
+.projects{
+  background-color: var(--white-section-bgc);
+}
 /*-------------------------------  contact us   -------------*/
 .contact {
   background-color: #222;
